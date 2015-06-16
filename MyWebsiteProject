@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <meta>
-<head></head>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body></body>
 <script src= type="text/javascript" charset="utf-"></script>
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </html>
