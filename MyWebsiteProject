@@ -6,6 +6,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
+    <h1>Haze Records</h1>
+    <div>
+      <h1>New Releases</h1>
+        <audio controls>
+          <src=??? type="audio/mp3">
+        </audio>
+    </div>
   </body>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </html>
