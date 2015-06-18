@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<meta>
-<head>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body></body>
-<script src= type="text/javascript" charset="utf-"></script>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <title>Haze Records</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+  </body>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </html>
