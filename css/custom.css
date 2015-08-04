@@ -3,13 +3,13 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #000;
+  color: #fff;
 }
 
 .social-icon {
   width: 30px;
   height: 30px;
-  margin: 0 5px;
+  margin: 0 5px 5px;
 }
 
 em {
@@ -19,10 +19,12 @@ em {
 .header-font {
   font-family: 'Megrim', cursive;
   text-align: center;
+  color: #BCBCBE;
+  font-size: 90px;
   font-weight: bolder;
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #;
 }
 
 body {
@@ -34,4 +36,28 @@ body {
 #wrapper {
   width: 80%;
   margin: 0 auto;
+}
+
+.carousel-inner {
+  padding: auto;
+  color: #000;
+}
+
+.carousel {
+  background: rgba(255,255,255,0.85);
+}
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(polina.jpg) no-repeat;
+background-size: cover;
 }

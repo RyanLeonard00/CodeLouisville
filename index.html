@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <title>Haze</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
   </head>
   <body class="backgroundImage">
+
+    <video autoplay loop poster="polina.jpg" id="bgvid">
+    <source src="SmokeVideo.mp4" type="video/mp4">
+    </video>
+
     <div id="wrapper">
       <div>
         <h1 class="header-font">Haze</h1>
@@ -29,15 +34,19 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
+          <div class="carousel-inner text-center">
             <div class="item active">
               <h1>Media Discovery Website</h1>
+              <P>Haze is deicated to bringing media together in one platform. With a social media powered rating network that lets movie, music, and art lovers help you find the best the world has to offer.</p>
             </div>
             <div class="item">
-              <h1>Learn how to build it for iOS</h1>
+              <h1>Music / Radio / Podcasts</h1>
+              <p>All sorted, curated, and categorized for your enjoyment.
+              <p>
             </div>
             <div class="item">
-              <h1>Learn how to build it for Android</h1>
+              <h1>Movies / TV</h1>
+              <p>Watchs, aggregate, and bookmark your favorite TV Shows, Movies, and never change tabs.</p>
             </div>
           </div>
         </div>
@@ -56,11 +65,9 @@
     <a href="http://facebook.com/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
     <p>2015 HAZE&reg;</p>
 
-    <script>
-function myFunction() {
-    document.body.backgroundImage = "url('smoke.js')";
-}
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
 
 </footer>
 </html>
